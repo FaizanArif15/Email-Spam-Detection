@@ -7,16 +7,16 @@ This project aims to provide a robust solution for spam detection in emails usin
 **Project Structure:**
 
 **Data Handling:**
-  We utilized pandas for efficient data manipulation and analysis, along with numpy for numerical operations.
+  <br>We utilized pandas for efficient data manipulation and analysis, along with numpy for numerical operations.
 
 **Text Preprocessing:**
-  For preprocessing the email content, we employed nltk for tasks such as tokenization, stop words removal, stemming, and lemmatization, ensuring clean and standardized text data.
+  <br>For preprocessing the email content, we employed nltk for tasks such as tokenization, stop words removal, stemming, and lemmatization, ensuring clean and standardized text data.
 
 **Model Selection:**
-  After experimenting with various machine learning algorithms, we opted for the Multinomial Naive Bayes classifier from scikit-learn, which demonstrated superior performance in handling textual data.
+  <br>After experimenting with various machine learning algorithms, we opted for the Multinomial Naive Bayes classifier from scikit-learn, which demonstrated superior performance in handling textual data.
 
 **Model Evaluation:**
-  We evaluated the model using standard metrics such as accuracy, precision, recall, and F1-score, ensuring its reliability and effectiveness in distinguishing between spam and non-spam emails.
+  <br>We evaluated the model using standard metrics such as accuracy, precision, recall, and F1-score, ensuring its reliability and effectiveness in distinguishing between spam and non-spam emails.
 
 **Web Application Development:**
-  We deployed the model using FastAPI along with HTML and CSS for creating a user-friendly web interface. This enables users to input email content and receive real-time predictions regarding its spam classification.
+  <br>We deployed the model using FastAPI along with HTML and CSS for creating a user-friendly web interface. This enables users to input email content and receive real-time predictions regarding its spam classification.
